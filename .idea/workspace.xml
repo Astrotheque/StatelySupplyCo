@@ -335,7 +335,7 @@
       <workItem from="1505335703015" duration="635000" />
       <workItem from="1505875505418" duration="244000" />
       <workItem from="1505875957304" duration="984000" />
-      <workItem from="1505922815153" duration="58000" />
+      <workItem from="1505922815153" duration="936000" />
     </task>
     <task id="LOCAL-00001" summary="This change is just the beginning of the setup of the database. If you have the project successfully connected to github you should be able to access the database as I complete it. As soon as it is completed please feel free to let me know if you are ready to start programming. This process may take me until Thursday or Friday to complete in it's entirety. There will be changes that will be necessary to make to the database as we discover what data needs to flow in and out of it.">
       <created>1505876883030</created>
@@ -344,11 +344,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505876883030</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="This change is just the beginning of the setup of the database. If you have the project successfully connected to github you should be able to access the database as I complete it. As soon as it is completed please feel free to let me know if you are ready to start programming. This process may take me until Thursday or Friday to complete in it's entirety. There will be changes that will be necessary to make to the database as we discover what data needs to flow in and out of it.">
+      <created>1505922891878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505922891878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52626000" />
+    <option name="totallyTimeSpent" value="53504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
