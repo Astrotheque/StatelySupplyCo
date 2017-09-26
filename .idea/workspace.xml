@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aa77cc0-2481-4fcc-bf74-881f28e3d45a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/Model.mwb" afterPath="$PROJECT_DIR$/data/Model.mwb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -362,7 +358,7 @@
       <workItem from="1506131426880" duration="2174000" />
       <workItem from="1506349146640" duration="830000" />
       <workItem from="1506458090626" duration="633000" />
-      <workItem from="1506460285684" duration="96000" />
+      <workItem from="1506460285684" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="This change is just the beginning of the setup of the database. If you have the project successfully connected to github you should be able to access the database as I complete it. As soon as it is completed please feel free to let me know if you are ready to start programming. This process may take me until Thursday or Friday to complete in it's entirety. There will be changes that will be necessary to make to the database as we discover what data needs to flow in and out of it.">
       <created>1505876883030</created>
@@ -385,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505924269854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Here I added the form.html page.">
+      <created>1506460402793</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506460402793</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64977000" />
+    <option name="totallyTimeSpent" value="65097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -471,7 +474,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This change is just the beginning of the setup of the database. If you have the project successfully connected to github you should be able to access the database as I complete it. As soon as it is completed please feel free to let me know if you are ready to start programming. This process may take me until Thursday or Friday to complete in it's entirety. There will be changes that will be necessary to make to the database as we discover what data needs to flow in and out of it." />
-    <option name="LAST_COMMIT_MESSAGE" value="This change is just the beginning of the setup of the database. If you have the project successfully connected to github you should be able to access the database as I complete it. As soon as it is completed please feel free to let me know if you are ready to start programming. This process may take me until Thursday or Friday to complete in it's entirety. There will be changes that will be necessary to make to the database as we discover what data needs to flow in and out of it." />
+    <MESSAGE value="Here I added the form.html page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Here I added the form.html page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
