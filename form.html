@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leave Contact Info</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+<div id="container">
+    <div class="wrapper">
+    <div id="header">
+    <header>
+    <h1>Your Information</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="npgriffin.html" >About Me</a></li>
+            <li><a href="coastal.html" >My College</a></li>
+            <li><a href="table.html" >Qualifications</a></li>
+        </ul>
+    </nav>
+</header>
+</div>
+</div>
+    <div class="bottom-wrapper">
+        <div id="body">
+            <div id="main">
+                <form method="post" id ="myform" action="confirm.html" name="myform" onsubmit="return validateForm()">
+                    <fieldset><legend>Contact Form</legend>
+                        <table>
+                            <tr>
+                                <th>
+                                    <label for="firstname">First Name</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="firstname" name="firstname" size="15" />
+                                </td>
+
+                                <th>
+                                    <label for="middleinitial">Middle Initial</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="middleinitial" name="middleinitial" size="1" maxlength="1" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="lastname">Last Name</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="lastname" name="lastname" size="15" />
+                                </td>
+                                </tr>
+                            <tr>
+                                <th>
+                                    <label for="link">Website URL</label>
+                                </th>
+                                <td>
+                                    <input type="url" id="link" name="link" size="25" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="email">Email Address</label>
+                                </th>
+                                <td>
+                                    <input type="email" id="email" name="email" size="25" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="pass">Password</label>
+                                </th>
+                                <td>
+                                    <input type="password" id="pass" name="pass" size="25" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="cpass">Confirm Password</label>
+                                </th>
+                                <td>
+                                    <input type="password" id="cpass" name="cpass" size="25" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="sel">Reason for Contact</label>
+                                </th>
+                                <td>
+                                    <select id="sel" name="sel">
+                                        <option value="">Choose One</option>
+                                        <option value="1">Business</option>
+                                        <option value="2">Personal</option>
+                                        <option value="3">Emergency</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                Best Time to Contact
+                                </th>
+                                <td>
+                                    <input type="radio" id="avail1" name="avail" value="1" /><label for="avail1">8am-12pm</label>
+                                    <input type="radio" id="avail2" name="avail" value="2" /><label for="avail2">12pm-5pm</label>
+                                    <input type="radio" id="avail3" name="avail" value="3" /><label for="avail3">5pm-10pm</label>
+                                    <input type="radio" id="avail4" name="avail" value="4" /><label for="avail4">10pm-2am</label>
+                                    <input type="radio" id="avail5" name="avail" value="5" /><label for="avail5">2am-8am</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="txt">Extra Info</label>
+                                </th>
+                                    <td>
+                                        <textarea id="txt" name= "textbox" rows="4" cols="50">Something about yourself.</textarea>
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit" id="submit" name="submit">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+<div id="aside">
+<aside>
+    <p>Below are some useful links to space related websites I find interesting.</p>
+    <div class="round-button-section">
+        <ul>
+            <li><div class="round-button">
+                <div class="round-button-circle">
+                    <a href="http://hubblesite.org/" class="round-button" target="_blank"><img src="images/Hubble.png" alt="Picture the Hubble Telescope">Hubble Site</a></div></div></li>
+            <li><div class="round-button">
+                <div class="round-button-circle">
+                    <a href="http://www.spacex.com/" class="round-button" target="_blank"><img src="images/SpaceX.png" alt="Picture of Falcon 9 Landing On Drone">Space X</a></div></div></li>
+            <li><div class="round-button">
+                <div class="round-button-circle">
+                    <a href="http://www.space.com/" class="round-button" target="_blank"><img src="images/spacedotcom.png" alt="Picture of SpaceDotCom Logo">Space Dot Com</a></div></div></li>
+            <li><div class="round-button">
+                <div class="round-button-circle">
+                    <a href="http://amazingspace.org/" class="round-button" target="_blank"><img src="images/AmazingSpace.png" alt="Picture of Amazing Space Logo">Amazing Space</a></div></div></li>
+        </ul>
+    </div>
+</aside>
+</div>
+</div>
+<div id="footer">
+<footer>
+    <p><br />The Final Frontier &copy; 2017 &nbsp;&nbsp;&nbsp;</p>
+</footer>
+</div></div>
+<script src="form.js"></script>
+
+</body>
+</html>
