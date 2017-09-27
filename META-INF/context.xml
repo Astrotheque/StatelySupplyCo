@@ -1,3 +1,0 @@
-<Context path="/webserv1" sessionCookieName="sid">
-<Resource name="jdbc/zoodb" auth="Container" type="javax.sql.DataSource" username="root" password="csci330pass" driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/zoodb" maxActive="10" maxIdle="4"/>
-</Context>
