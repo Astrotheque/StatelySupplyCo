@@ -19,5 +19,6 @@
     <schema id="13" parent="1" name="showdb"/>
     <schema id="14" parent="1" name="sys"/>
     <schema id="15" parent="1" name="world"/>
+    <schema id="16" parent="1" name="pizza"/>
   </database-model>
 </dataSource>
