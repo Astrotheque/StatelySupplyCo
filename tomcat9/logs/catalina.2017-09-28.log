@@ -1,0 +1,94 @@
+28-Sep-2017 20:01:43.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+28-Sep-2017 20:01:43.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+28-Sep-2017 20:01:43.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+28-Sep-2017 20:01:43.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Sep-2017 20:01:43.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Sep-2017 20:01:43.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Sep-2017 20:01:43.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jre1.8.0_121
+28-Sep-2017 20:01:43.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+28-Sep-2017 20:01:43.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Sep-2017 20:01:43.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\Websites\StatelySupplyCo\tomcat9
+28-Sep-2017 20:01:43.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\Websites\StatelySupplyCo\tomcat9
+28-Sep-2017 20:01:43.351 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\Websites\StatelySupplyCo\tomcat9\conf\logging.properties
+28-Sep-2017 20:01:43.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Sep-2017 20:01:43.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\Websites\StatelySupplyCo\tomcat9
+28-Sep-2017 20:01:43.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\Websites\StatelySupplyCo\tomcat9
+28-Sep-2017 20:01:43.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\Websites\StatelySupplyCo\tomcat9\temp
+28-Sep-2017 20:01:43.361 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.5 using APR version 1.5.1.
+28-Sep-2017 20:01:43.363 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Sep-2017 20:01:44.188 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2g  1 Mar 2016)
+28-Sep-2017 20:01:44.993 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Sep-2017 20:01:45.239 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Sep-2017 20:01:45.243 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Sep-2017 20:01:45.246 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Sep-2017 20:01:45.246 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2656 ms
+28-Sep-2017 20:01:45.288 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Sep-2017 20:01:45.289 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+28-Sep-2017 20:01:45.305 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\docs
+28-Sep-2017 20:01:45.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\docs has finished in 396 ms
+28-Sep-2017 20:01:45.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\examples
+28-Sep-2017 20:01:46.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\examples has finished in 628 ms
+28-Sep-2017 20:01:46.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\host-manager
+28-Sep-2017 20:01:46.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\host-manager has finished in 59 ms
+28-Sep-2017 20:01:46.393 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\manager
+28-Sep-2017 20:01:46.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\manager has finished in 57 ms
+28-Sep-2017 20:01:46.450 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\myapp
+28-Sep-2017 20:01:46.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\myapp has finished in 49 ms
+28-Sep-2017 20:01:46.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\ROOT
+28-Sep-2017 20:01:46.535 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\ROOT has finished in 36 ms
+28-Sep-2017 20:01:46.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\webserv1
+28-Sep-2017 20:01:46.675 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource Unable to process web resource [/WEB-INF/classes/com/cs330/CSCI330WSTest.class] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: It is not a Java .class file
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readID(ClassParser.java:200)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:78)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2042)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1941)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1144)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:298)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:152)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+28-Sep-2017 20:01:46.679 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource Unable to process web resource [/WEB-INF/classes/com/cs330/IngredientServices.class] for annotations
+ org.apache.tomcat.util.bcel.classfile.ClassFormatException: It is not a Java .class file
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.readID(ClassParser.java:200)
+	at org.apache.tomcat.util.bcel.classfile.ClassParser.parse(ClassParser.java:78)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2042)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1941)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:1935)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1144)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:771)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:298)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5092)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:152)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:702)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+28-Sep-2017 20:01:48.217 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Sep-2017 20:01:49.215 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\Websites\StatelySupplyCo\tomcat9\webapps\webserv1 has finished in 2,679 ms
+28-Sep-2017 20:01:49.223 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+28-Sep-2017 20:01:49.239 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+28-Sep-2017 20:01:49.248 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4001 ms
