@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aa77cc0-2481-4fcc-bf74-881f28e3d45a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Thumbs.db" afterPath="$PROJECT_DIR$/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/removed/Thumbs.db" afterPath="$PROJECT_DIR$/removed/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d443747b-2927-4d14-bf35-1e11d1fc30db.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/d443747b-2927-4d14-bf35-1e11d1fc30db.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/form.js" afterPath="$PROJECT_DIR$/js/form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newaccount.html" afterPath="$PROJECT_DIR$/newaccount.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,8 +105,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            <state relative-caret-position="67">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <marker date="1506970978403" expanded="false" signature="710:966" ph="..." />
               </folding>
@@ -433,7 +424,7 @@
       <workItem from="1506961861106" duration="1782000" />
       <workItem from="1506963745843" duration="926000" />
       <workItem from="1506970919813" duration="1497000" />
-      <workItem from="1506975167742" duration="1357000" />
+      <workItem from="1506975167742" duration="1596000" />
     </task>
     <task id="LOCAL-00001" summary="This change is just the beginning of the setup of the database. If you have the project successfully connected to github you should be able to access the database as I complete it. As soon as it is completed please feel free to let me know if you are ready to start programming. This process may take me until Thursday or Friday to complete in it's entirety. There will be changes that will be necessary to make to the database as we discover what data needs to flow in and out of it.">
       <created>1505876883030</created>
@@ -484,14 +475,22 @@
       <option name="project" value="LOCAL" />
       <updated>1506547964607</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I added files and removed some but these should be in working form">
+      <created>1506976545912</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1506976545913</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106582000" />
+    <option name="totallyTimeSpent" value="106821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284839" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21406959" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -881,8 +880,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        <state relative-caret-position="67">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <marker date="1506970978403" expanded="false" signature="710:966" ph="..." />
           </folding>
