@@ -15,7 +15,7 @@ function validateForm(){
         var availability4 = document.forms['myform']['avail4'].checked;
         var availability5 = document.forms['myform']['avail5'].checked;
         var comment = document.forms['myform']['textbox'].value;
-
+        var zipcode = document.forms['myform']['sZip'].value;
         if (firstName === null || firstName === "") {
             alert("Please Enter Your First Name");
             return false;

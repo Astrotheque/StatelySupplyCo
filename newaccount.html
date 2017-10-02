@@ -2,9 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>newaccount</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Stately Supply Co.-New Account</title>
+    <link rel="icon" href="img/browsericon.jpg">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
 <p>New Account Form Page</p>
+<div id="container">
+    <div class="wrapper">
+        <div id="header">
+            <header>
+                <h1>Your Information</h1>
+                <nav>
+                    <button class="button" type="button" ><a href="index.html" ><span>Home</span></a></button>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div class="bottom-wrapper">
+        <div id="body">
+            <div id="main">
+                <form method="post" id ="myform" action="confirm.html" name="myform" onsubmit="return validateForm()">
+                    <fieldset><legend>Please Enter Customer Information</legend>
+                        <table>
+                            <tr>
+                                <th>
+                                    <label for="firstname">First Name</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="firstname" name="firstname" size="15" />
+                                </td>
+
+                                <th>
+                                    <label for="middleinitial">Middle Initial</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="middleinitial" name="middleinitial" size="1" maxlength="1" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="lastname">Last Name</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="lastname" name="lastname" size="15" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="email">Email Address</label>
+                                </th>
+                                <td>
+                                    <input type="email" id="email" name="email" size="25" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="pass">Password</label>
+                                </th>
+                                <td>
+                                    <input type="password" id="pass" name="pass" size="25" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="cpass">Confirm Password</label>
+                                </th>
+                                <td>
+                                    <input type="password" id="cpass" name="cpass" size="25" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="sadd">Shipping Street Address</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="sadd" name="sadd" size="25"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="city">City</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="city" name="city" size="25"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="zipcode">Zipcode</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="zipcode" name="zipcode" size="10"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                 <button class="button" type="submit" id="submit" name="submit">Submit</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <footer>
+            <p><br />The Final Frontier &copy; 2017 &nbsp;&nbsp;&nbsp;</p>
+        </footer>
+    </div></div>
+<script src="js/form.js"></script>
 </body>
 </html>
