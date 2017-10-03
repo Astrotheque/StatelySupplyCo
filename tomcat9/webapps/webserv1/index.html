@@ -14,11 +14,23 @@ $(document).ready( function() {
 		dataType: "text",
 	success: function(result) {
 		alert("success");
-		$("#p_retrieveAll").html(result); },
+		var resultArray = JSON.parse(result);
+		alert(resultArray);
+		var output="<h3>Ingredient List</h3>";
+		output += "<ul>";
+		alert(resultArray.length);
+		for(var i=0; i<resultArray.length;i++)
+		{
+		output += "<li>" + resultArray[i].name + " ("+ resultArray[i].id+ ","
+			+ resultArray[i].category + ")" + "</li>";
+		}
+		output += "</ul>";
+		alert(output);
+		$("#p_retrieveAll").html(output);},
 	error:function(xhr) {
 		alert("error");
 		$("#p_retrieveAll").html("Error:"+xhr.status + " " +xhr.statusText);}
-	} );
+	});
 });
 $("#btnOneId").click(function() {
 	alert("clicked");
@@ -30,47 +42,118 @@ $("#btnOneId").click(function() {
 	dataType: "text",
 	success: function(result) {
 		alert("success");
-		$("#p_retrieveOneId").html(result); },
+		var resultArray = JSON.parse(result);
+		alert(resultArray);
+		var output="<h3>Ingredient List</h3>";
+		output += "<ul>";
+		alert(resultArray.length);
+		for(var i=0; i<resultArray.length;i++)
+		{
+			output += "<li>" + resultArray[i].name + " ("+ resultArray[i].id+ ","
+			+ resultArray[i].category + ")" + "</li>";
+		}
+		output += "</ul>";
+		alert(output);
+		$("#p_retrieveOneId").html(output); },
 	error:function(xhr) {
 		alert("error");
 		$("#p_retrieveOneId").html("Error:"+xhr.status+" "+xhr.statusText);}
-	} );
+	});
 });
 $("#btnOneName").click(function() {
 	alert("clicked");
 	var inputName=document.getElementById("t_ingredName").value;
 	var theUrl ="http://localhost:8080/webserv1/resources/ws2/ingredients/ingredient?name="+inputName;
 	$.ajax( {
-	url: theUrl,
-	type: "GET",
-	dataType: "text",
-	success: function(result) {
-	alert("success");
-$("#p_retrieveOneName").html(result); },
-	error:function(xhr) {
-	alert("error");
-$("#p_retrieveOneName").html("Error:"+xhr.status+" "+xhr.statusText);}
+		url: theUrl,
+		type: "GET",
+		dataType: "text",
+		success: function(result) {
+			alert("success");
+			var resultArray = JSON.parse(result);
+			alert(resultArray);
+			var output="<h3>Ingredient List</h3>";
+			output += "<ul>";
+			alert(resultArray.length);
+			for(var i=0; i<resultArray.length;i++)
+			{
+				output += "<li>" + resultArray[i].name + " ("+ resultArray[i].id+ ","
+				+ resultArray[i].category + ")" + "</li>";
+			}
+			output += "</ul>";
+			alert(output);
+			$("#p_retrieveOneName").html(output); 
+		},
+		error:function(xhr) {
+			alert("error");
+			$("#p_retrieveOneName").html("Error:"+xhr.status+" "+xhr.statusText);}
+	});
 });
-});
+	
+
+	$("#btnCreateIng").click(function() {
+		alert("clicked");
+		var newName=document.getElementById("t_ingNameCreate").value;
+		var newCategory=document.getElementById("t_ingCategoryCreate").value;
+		var theData ="name="+newName+"&"+"category="+newCategory;
+		alert("Sending: "+theData);
+		var theUrl = "http://localhost:8080/webserv1/resources/ws2/ingredients/";
+		$.ajax( {
+		url: theUrl,
+		type: "POST",
+		dataType: "text",
+		contentType: "application/x-www-form-urlencoded",
+		data: theData,
+		success: 
+			function(result,status,jqxhr) {
+				alert("success: "+status);
+				var resultArray = JSON.parse(result);
+				alert(resultArray);
+				var output="<h3>Just added</h3>";
+				output += "<ul>";
+				alert(resultArray.length);
+				for(var i=0; i<resultArray.length;i++)
+				{
+					output += "<li>" +resultArray[i].name+ " ("+ resultArray[i].id+ ","+ resultArray[i].category + ")" + "</li>";
+				}
+				output += "</ul>";
+				alert(output);
+				$("#p_createIng").html(output); 
+			},
+			error:
+				function(xhr, status, errorThrown) {
+				alert("error: "+status+" e: "+errorThrown);
+				$("#p_createIng").html("Error:"+xhr.status+" "+xhr.statusText);}
+			});
+		});
 });
 </script>
 </head>
 <body>
 <h3>Testing Web Services</h3>
-<div id="retrieveAll">
-	<button id="btnAll">Click to Retrieve All</button>
-	<p id="p_retrieveAll">Ingredients List Goes here</p>
-</div>
-<div id="retrieveOneId">
-	<input type="text" id="t_ingredId" value="type id here"/>
-	<button id="btnOneId">Click to Retrieve by Id</button>
-	<p id="p_retrieveOneId">Ingredient By Id Goes here</p>
-</div>
+	<div id="retrieveAll">
+		<button id="btnAll">Click to Retrieve All</button>
+		<p id="p_retrieveAll">Ingredients List Goes here</p>
+	</div>
+	<div id="retrieveOneId">
+		<input type="text" id="t_ingredId" value="type id here" onClick="this.setSelectionRange(0, this.value.length)"/>
+		<button id="btnOneId">Click to Retrieve by Id</button>
+		<p id="p_retrieveOneId">Ingredient By Id Goes here</p>
+	</div>
 
-<div id="retrieveOneName">
-	<input type="text" id="t_ingredName" value="type name here"/>
-	<button id="btnOneName">Click to Retrieve by Name</button>
-	<p id="p_retrieveOneName">Ingredient By Name Goes here</p>
-</div>
+	<div id="retrieveOneName">
+		<input type="text" id="t_ingredName" value="type name here" onClick="this.setSelectionRange(0, this.value.length)"/>
+		<button id="btnOneName">Click to Retrieve by Name</button>
+		<p id="p_retrieveOneName">Ingredient By Name Goes here</p>
+	</div>
+	<div id="createIng">
+		<h4> Add Ingredient </h4>
+			<label for="t_ingNameCreate">Ingredient Name: </label>
+			<input type="text" id="t_ingNameCreate" value="type name here" onClick="this.setSelectionRange(0, this.value.length)"/>
+			<label for="t_ingCategoryCreate">Ingredient Category: </label>
+			<input type="text" id="t_ingCategoryCreate" value="type category here" onClick="this.setSelectionRange(0, this.value.length)"/>
+			<button id="btnCreateIng">Click to Add this Ingredient</button>
+		<p id="p_createIng">Created Ingredient goes here</p>
+	</div>
 </body>
 </html>
