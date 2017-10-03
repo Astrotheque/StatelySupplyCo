@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [03/Oct/2017:08:00:15 -0400] "POST /webserv1/resources/ws2/ingredients/ HTTP/1.1" 500 6783
+0:0:0:0:0:0:0:1 - - [03/Oct/2017:08:01:01 -0400] "POST /webserv1/resources/ws2/ingredients/ HTTP/1.1" 500 6783

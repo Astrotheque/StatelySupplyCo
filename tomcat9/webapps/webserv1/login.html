@@ -1,0 +1,242 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+<title>Nathan's Ingredients-Smarter DB access</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready( function() {
+	alert("running script");
+	$("#btnAll").click(function() {
+		alert("clicked");
+		$.ajax( {
+		url:"http://localhost:8080/webserv1/resources/ws2/ingredients/",
+		type: "GET",
+		dataType: "text",
+	success: function(result) {
+		alert("success");
+		var resultArray = JSON.parse(result);
+		alert(resultArray);
+		var output="<h3>Ingredient List</h3>";
+		output += "<ul>";
+		alert(resultArray.length);
+		for(var i=0; i<resultArray.length;i++)
+		{
+		output += "<li>" + resultArray[i].name + " ("+ resultArray[i].id+ ","
+			+ resultArray[i].category + ")" + "</li>";
+		}
+		output += "</ul>";
+		alert(output);
+		$("#p_retrieveAll").html(output);},
+	error:function(xhr) {
+		alert("error");
+		$("#p_retrieveAll").html("Error:"+xhr.status + " " +xhr.statusText);}
+	});
+});
+$("#btnOneId").click(function() {
+	alert("clicked");
+	var inputId=document.getElementById("t_ingredId").value;
+	var theUrl ="http://localhost:8080/webserv1/resources/ws2/ingredients/"+inputId;
+	$.ajax( {
+	url: theUrl,
+	type: "GET",
+	dataType: "text",
+	success: function(result) {
+		alert("success");
+		var resultArray = JSON.parse(result);
+		alert(resultArray);
+		var output="<h3>Ingredient List</h3>";
+		output += "<ul>";
+		alert(resultArray.length);
+		for(var i=0; i<resultArray.length;i++)
+		{
+			output += "<li>" + resultArray[i].name + " ("+ resultArray[i].id+ ","
+			+ resultArray[i].category + ")" + "</li>";
+		}
+		output += "</ul>";
+		alert(output);
+		$("#p_retrieveOneId").html(output); },
+	error:function(xhr) {
+		alert("error");
+		$("#p_retrieveOneId").html("Error:"+xhr.status+" "+xhr.statusText);}
+	});
+});
+$("#btnOneName").click(function() {
+	alert("clicked");
+	var inputName=document.getElementById("t_ingredName").value;
+	var theUrl ="http://localhost:8080/webserv1/resources/ws2/ingredients/ingredient?name="+inputName;
+	$.ajax( {
+		url: theUrl,
+		type: "GET",
+		dataType: "text",
+		success: function(result) {
+			alert("success");
+			var resultArray = JSON.parse(result);
+			alert(resultArray);
+			var output="<h3>Ingredient List</h3>";
+			output += "<ul>";
+			alert(resultArray.length);
+			for(var i=0; i<resultArray.length;i++)
+			{
+				output += "<li>" + resultArray[i].name + " ("+ resultArray[i].id+ ","
+				+ resultArray[i].category + ")" + "</li>";
+			}
+			output += "</ul>";
+			alert(output);
+			$("#p_retrieveOneName").html(output); 
+		},
+		error:function(xhr) {
+			alert("error");
+			$("#p_retrieveOneName").html("Error:"+xhr.status+" "+xhr.statusText);}
+	});
+});
+	
+
+	$("#btnCreateIng").click(function() {
+		alert("clicked");
+		var newName=document.getElementById("t_ingNameCreate").value;
+		var newCategory=document.getElementById("t_ingCategoryCreate").value;
+		var theData ="name="+newName+"&"+"category="+newCategory;
+		alert("Sending: "+theData);
+		var theUrl = "http://localhost:8080/webserv1/resources/ws2/ingredients/";
+		$.ajax( {
+		url: theUrl,
+		type: "POST",
+		dataType: "text",
+		contentType: "application/x-www-form-urlencoded",
+		data: theData,
+		success: 
+			function(result,status,jqxhr) {
+				alert("success: "+status);
+				var resultArray = JSON.parse(result);
+				alert(resultArray);
+				var output="<h3>Just added</h3>";
+				output += "<ul>";
+				alert(resultArray.length);
+				for(var i=0; i<resultArray.length;i++)
+				{
+					output += "<li>" +resultArray[i].name+ " ("+ resultArray[i].id+ ","+ resultArray[i].category + ")" + "</li>";
+				}
+				output += "</ul>";
+				alert(output);
+				$("#p_createIng").html(output); 
+			},
+			error:
+				function(xhr, status, errorThrown) {
+				alert("error: "+status+" e: "+errorThrown);
+				$("#p_createIng").html("Error:"+xhr.status+" "+xhr.statusText);}
+			});
+		});
+});
+</script>
+</head>
+<body>
+<p>New Account Form Page</p>
+<div id="container">
+    <div class="bottom-wrapper">
+        <div id="body">
+            <div id="main">
+                <form method="post" id ="myform" action="confirm.html" name="myform" onsubmit="return validateForm()">
+                    <fieldset><legend>Please Enter Customer Information</legend>
+                        <table>
+                            <tr>
+                                <th>
+                                    <label for="firstname">First Name</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="firstname" name="firstname" size="15" onClick="this.setSelectionRange(0, this.value.length)" />
+                                </td>
+
+                                <th>
+                                    <label for="middleinitial">Middle Initial</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="middleinitial" name="middleinitial" size="1" maxlength="1" onClick="this.setSelectionRange(0, this.value.length)" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="lastname">Last Name</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="lastname" name="lastname" size="15" onClick="this.setSelectionRange(0, this.value.length)" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="email">Email Address</label>
+                                </th>
+                                <td>
+                                    <input type="email" id="email" name="email" size="25" onClick="this.setSelectionRange(0, this.value.length)" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="pass">Password</label>
+                                </th>
+                                <td>
+                                    <input type="password" id="pass" name="pass" size="25" onClick="this.setSelectionRange(0, this.value.length)" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="cpass">Confirm Password</label>
+                                </th>
+                                <td>
+                                    <input type="password" id="cpass" name="cpass" size="25" onClick="this.setSelectionRange(0, this.value.length)" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="sadd">Shipping Street Address</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="sadd" name="sadd" size="25" onClick="this.setSelectionRange(0, this.value.length)" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="city">City</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="city" name="city" size="25" onClick="this.setSelectionRange(0, this.value.length)" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="zipcode">Zipcode</label>
+                                </th>
+                                <td>
+                                    <input type="text" id="zipcode" name="zipcode" size="10" onClick="this.setSelectionRange(0, this.value.length)" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                 <button class="button" type="submit" id="submit" name="submit">Submit</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <footer>
+            <p><br />The Final Frontier &copy; 2017 &nbsp;&nbsp;&nbsp;</p>
+        </footer>
+    </div></div>
+<script src="js/form.js"></script>
+
+	<div id="createIng">
+		<h4> Add Customer </h4>
+			<label for="t_ingNameCreate">Ingredient Name: </label>
+			<input type="text" id="t_ingNameCreate" value="type name here" onClick="this.setSelectionRange(0, this.value.length)"/>
+			<label for="t_ingCategoryCreate">Ingredient Category: </label>
+			<input type="text" id="t_ingCategoryCreate" value="type category here" onClick="this.setSelectionRange(0, this.value.length)"/>
+			<button id="btnCreateIng">Click to Add this Ingredient</button>
+		<p id="p_createIng">Created Ingredient goes here</p>
+	</div>
+</body>
+</html>
