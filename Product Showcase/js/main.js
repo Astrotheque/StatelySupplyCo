@@ -67,27 +67,7 @@ $(document).ready(function () {
                 }, 100);
             }, 150);
         });
-        $(el).find('.flip-back').click(function () {
-            $(el).find('.make3D').removeClass('flip180').addClass('flip190');
-            setTimeout(function () {
-                $(el).find('.make3D').removeClass('flip190').addClass('flip90');
-                $(el).find('.product-back div.shadow').css('opacity', 0).fadeTo(100, 1, function () {
-                    $(el).find('.product-back, .product-back div.shadow').hide();
-                    $(el).find('.product-front, .product-front div.shadow').show();
-                });
-            }, 50);
-            setTimeout(function () {
-                $(el).find('.make3D').removeClass('flip90').addClass('flip-10');
-                $(el).find('.product-front div.shadow').show().fadeTo(100, 0);
-                setTimeout(function () {
-                    $(el).find('.product-front div.shadow').hide();
-                    $(el).find('.make3D').removeClass('flip-10').css('transition', '100ms ease-out');
-                    $(el).find('.cx, .cy').removeClass('s1 s2 s3');
-                }, 100);
-            }, 150);
-        });
-        makeCarousel(el);
-    });
+        
     $('.add-cart-large').each(function (i, el) {
         $(el).click(function () {
             var carousel = $(this).parent().parent().find('.carousel-container');
