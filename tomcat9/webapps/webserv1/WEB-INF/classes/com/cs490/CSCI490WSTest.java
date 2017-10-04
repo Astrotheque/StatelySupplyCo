@@ -2,7 +2,6 @@
  * 
  */
 package com.cs490;
-
 import javax.ws.rs.GET;
 
 /**
