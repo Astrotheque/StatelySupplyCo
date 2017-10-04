@@ -15,10 +15,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs490/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs490/src/Customer.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/index.BAK.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newaccount.html" afterPath="$PROJECT_DIR$/newaccount.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat9/logs/catalina.2017-10-04.log" afterPath="$PROJECT_DIR$/tomcat9/logs/catalina.2017-10-04.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat9/logs/localhost.2017-10-04.log" afterPath="$PROJECT_DIR$/tomcat9/logs/localhost.2017-10-04.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/index.html" afterPath="$PROJECT_DIR$/tomcat9/webapps/webserv1/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/login.html" afterPath="$PROJECT_DIR$/tomcat9/webapps/webserv1/login.html" />
     </list>
@@ -496,7 +493,7 @@
       <workItem from="1507140970749" duration="616000" />
       <workItem from="1507145525481" duration="1067000" />
       <workItem from="1507148355836" duration="669000" />
-      <workItem from="1507158200848" duration="1091000" />
+      <workItem from="1507158200848" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="This change is just the beginning of the setup of the database. If you have the project successfully connected to github you should be able to access the database as I complete it. As soon as it is completed please feel free to let me know if you are ready to start programming. This process may take me until Thursday or Friday to complete in it's entirety. There will be changes that will be necessary to make to the database as we discover what data needs to flow in and out of it.">
       <created>1505876883030</created>
@@ -572,7 +569,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127102000" />
+    <option name="totallyTimeSpent" value="127371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="-1" width="1188" height="784" extended-state="0" />
