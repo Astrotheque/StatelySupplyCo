@@ -4,24 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="56" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1aa77cc0-2481-4fcc-bf74-881f28e3d45a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs330/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs330/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs330/Trash/CSCI330WSTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs330/Trash/CSCI330WSTest.java.bak" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs330/com/cs330/CSCI330WSTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs330/com/cs330/Ingredient.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs490/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs490/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/WEB-INF/classes/com/cs490/src/Customer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/index.BAK.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newaccount.html" afterPath="$PROJECT_DIR$/newaccount.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat9/logs/catalina.2017-10-04.log" afterPath="$PROJECT_DIR$/tomcat9/logs/catalina.2017-10-04.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat9/logs/localhost.2017-10-04.log" afterPath="$PROJECT_DIR$/tomcat9/logs/localhost.2017-10-04.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/index.html" afterPath="$PROJECT_DIR$/tomcat9/webapps/webserv1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tomcat9/webapps/webserv1/login.html" afterPath="$PROJECT_DIR$/tomcat9/webapps/webserv1/login.html" />
-    </list>
+    <list default="true" id="1aa77cc0-2481-4fcc-bf74-881f28e3d45a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +33,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
+            <state relative-caret-position="7174">
               <caret line="422" column="69" lean-forward="false" selection-start-line="422" selection-start-column="69" selection-end-line="422" selection-end-column="69" />
               <folding />
             </state>
@@ -60,7 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-562">
+            <state relative-caret-position="204">
               <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
               <folding />
             </state>
@@ -80,7 +63,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tomcat9/webapps/webserv1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2174">
+            <state relative-caret-position="51">
               <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
@@ -90,8 +73,8 @@
       <file leaf-file-name="newaccount.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newaccount.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            <state relative-caret-position="17">
+              <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -203,6 +186,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,8 +263,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,7 +479,8 @@
       <workItem from="1507140970749" duration="616000" />
       <workItem from="1507145525481" duration="1067000" />
       <workItem from="1507148355836" duration="669000" />
-      <workItem from="1507158200848" duration="1091000" />
+      <workItem from="1507158200848" duration="1360000" />
+      <workItem from="1507166700730" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="This change is just the beginning of the setup of the database. If you have the project successfully connected to github you should be able to access the database as I complete it. As soon as it is completed please feel free to let me know if you are ready to start programming. This process may take me until Thursday or Friday to complete in it's entirety. There will be changes that will be necessary to make to the database as we discover what data needs to flow in and out of it.">
       <created>1505876883030</created>
@@ -572,14 +556,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127102000" />
+    <option name="totallyTimeSpent" value="127992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="-1" width="1188" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284839" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3820922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5060514" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51684535" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -921,13 +905,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="7174">
           <caret line="422" column="69" lean-forward="false" selection-start-line="422" selection-start-column="69" selection-end-line="422" selection-end-column="69" />
           <folding />
         </state>
@@ -935,7 +918,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
+        <state relative-caret-position="204">
           <caret line="12" column="64" lean-forward="false" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
           <folding />
         </state>
@@ -951,7 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tomcat9/webapps/webserv1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2174">
+        <state relative-caret-position="51">
           <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
@@ -959,8 +942,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newaccount.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        <state relative-caret-position="17">
+          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
           <folding />
         </state>
       </provider>
